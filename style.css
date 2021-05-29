@@ -1,0 +1,169 @@
+/* Resets */
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* common / global / effecting all tags */
+section {
+    padding-top: 1px;
+}
+
+h1 , h2{ 
+    margin-bottom: 0px;
+}
+
+/* custom styling for sections / components */
+a{
+    margin-right:30px;
+}
+
+/* Menu */
+nav{
+    background-color: #A1CDF4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin-right: 30px;
+    padding: 15px;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #031ecc;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 20px;
+}
+
+#intro {
+    height: auto;
+    background: #B5B1B2;
+ 
+}
+
+#about {
+    height: auto;
+    background: #ADA9B7;
+}
+
+#about .right {
+    width: 50%;
+    float: right;
+}
+
+
+#projects {
+    background: #3a56f5;
+}
+
+#contact {
+    height: auto;
+    background: #65b6fc;
+    
+}
+
+
+#logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#headshot {
+    height : 300px;
+    width : 300px;
+    border-radius: 15%;
+    margin:  60px;
+   
+}
+
+button{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+
+#intro, #about, #projects, #contact{
+    padding: 30px;
+}
+
+
+
+
+/* Projects section */
+#projects .project {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#projects .project .left {
+    display: inline-block;
+    width: 35%;
+}
+
+#projects .project .left img {
+    float: right;
+    margin: 0 20px;
+}
+
+#projects .project .right {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+#projects .project .right h2 {
+    margin-top: 0px;
+}
+
+#projects > h2 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.section-title {
+    margin-bottom: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#footer {
+    text-align: center;
+    font-size: smaller;
+    color: #3f01cf;
+    padding: 2em 0;
+    font-weight: bold;
+}
+
+#projects img {
+    width : 350px;
+    height: auto;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+.details p {
+    padding: 20px;
+}

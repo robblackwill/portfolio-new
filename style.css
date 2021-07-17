@@ -25,7 +25,7 @@ a{
 
 /* Menu */
 nav{
-    background-color: #A1CDF4;
+    background-color: #e5fa27;
     padding: 20px;
     text-align: center;
 }
@@ -39,36 +39,38 @@ nav a {
 }
 
 #header {
-    background-color: #031ecc;
-    color: rgb(204, 204, 204);
+    background-color:  #A1CDF4;
+    color: rgb(5, 4, 4);
     text-align: center;
     padding: 20px;
+    border: #0c0c0c;
 }
 
 #intro {
     height: auto;
-    background: #B5B1B2;
+    background:   #A1CDF4;
  
 }
 
-#about {
+#about  {
     height: auto;
-    background: #ADA9B7;
+    background:   #A1CDF4;
 }
 
 #about .right {
     width: 50%;
-    float: right;
+    float: left;
 }
 
 
 #projects {
-    background: #3a56f5;
+    background:  #A1CDF4;
+
 }
 
 #contact {
     height: auto;
-    background: #65b6fc;
+    background:  #A1CDF4;
     
 }
 
@@ -79,7 +81,7 @@ nav a {
     border-radius: 50%;
 }
 
-#headshot {
+#headshot  {
     height : 300px;
     width : 300px;
     border-radius: 15%;
@@ -137,7 +139,7 @@ button{
 .section-title {
     margin-bottom: 1em;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
 }
 
 .wrap {
